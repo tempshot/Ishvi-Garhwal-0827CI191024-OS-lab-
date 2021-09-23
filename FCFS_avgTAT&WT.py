@@ -1,4 +1,4 @@
-# Average turn around and waiting time
+# Average turn around and waiting time with 0 arrival time.
 
 from operator import add as a
 
