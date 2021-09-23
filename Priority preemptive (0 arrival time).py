@@ -34,7 +34,7 @@ print('\nProcess |   Bust time   |  Priority   | Waiting time | Turn around time
 print('--------------------------------------------------------------------------')
 
 for y in range(process_no):
-    print(pri_bt_p[y][1],'\t|  ',  pri_bt_p[y][1],'\t\t|',pri_bt_p[y][0],'\t\t|',waiting[y],'  \t\t|',tat[y])
+    print(pri_bt_p[y][1],'\t|  ',  pri_bt_p[y][2],'\t\t|',pri_bt_p[y][0],'\t\t|',waiting[y],'  \t\t|',tat[y])
 
 print('\nAverage turn around time is:', avg_tat/len(tat))
 print('\nAverage waiting time is', avg_wt/len(waiting))
